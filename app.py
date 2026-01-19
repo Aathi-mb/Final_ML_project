@@ -13,8 +13,8 @@ st.write("Linear Regression using real electricity dataset")
 # -----------------------------
 # Load Dataset
 # -----------------------------
-path = r"C:\Users\Aathira\Desktop\Electricity\powerconsumption.csv"
-df = pd.read_csv(path)
+df = pd.read_csv("powerconsumption.csv")
+
 
 # -----------------------------
 # Show Dataset (optional)
